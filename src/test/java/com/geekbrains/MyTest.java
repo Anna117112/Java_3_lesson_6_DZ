@@ -34,6 +34,7 @@ public class MyTest {
         Assertions.assertArrayEquals(result, test_1.test(array));
     }
 
+
     // для передачи разных параметров ссылочного тима как массив
     public static Stream<Arguments> arrayOperation() {
         List<Arguments> out = new ArrayList<>();

@@ -2,7 +2,7 @@ package geekbrains;
 
 public class Test_2 {
     public static void main(String[] args) {
-        //test2(new int[]{1, 1});
+
 
     }
 

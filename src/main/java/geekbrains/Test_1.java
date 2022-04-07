@@ -15,7 +15,6 @@ public class Test_1 {
 
     public  int[] test(int[] arr) {
 
-        boolean exeption = true;
         ArrayList<Integer> arrList = new ArrayList<Integer>();
         if (arr[arr.length - 1] == 4) {
             String s = "Последний элемент содержит 4";
@@ -50,8 +49,6 @@ public class Test_1 {
 
             return ars;
 
-
-            //return newarr;
         } else {
 
             throw new RuntimeException("В массиве нет 4");

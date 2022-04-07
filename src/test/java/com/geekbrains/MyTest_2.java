@@ -26,6 +26,7 @@ public class MyTest_2 {
         Assertions.assertArrayEquals(new boolean[]{ok},test_2.test2(aray));
     }
 
+    
     // для передачи разных параметров ссылочного тима как массив
     public static Stream<Arguments> arrayOperation() {
         List<Arguments> out = new ArrayList<>();
